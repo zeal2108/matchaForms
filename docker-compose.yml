@@ -5,9 +5,9 @@ services:
     container_name: matchaForms-pg
 
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: dev
+      POSTGRES_USER: zeal
+      POSTGRES_PASSWORD: postgreszeal2108
+      POSTGRES_DB: matchaForms-dev
 
     ports:
       - "5432:5432"

@@ -3,6 +3,8 @@ CREATE TABLE "users" (
 	"full_name" varchar(80) NOT NULL,
 	"email" varchar(255) NOT NULL,
 	"email_verified" boolean DEFAULT false,
+	"salt" text,
+	"password" text,
 	"profile_image_url" text,
 	"created_at" timestamp DEFAULT now(),
 	"updated_at" timestamp,
