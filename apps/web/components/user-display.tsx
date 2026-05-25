@@ -4,6 +4,7 @@ import { useGetUser } from "~/hooks/api/auth";
 import { Card, CardContent } from "~/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "~/components/ui/avatar";
 
+
 export function UserDisplay() {
   const { user, isLoading, isError, error } = useGetUser();
 

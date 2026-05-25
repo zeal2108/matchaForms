@@ -18,7 +18,6 @@ import {
   signInUserwithEmailInput,
   type SignInUserwithEmailInputType,
 } from "@repo/services/user/model";
-import { redirect } from "next/navigation";
 import { useLogin } from "~/hooks/api/auth";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
