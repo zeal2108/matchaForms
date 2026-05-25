@@ -1,6 +1,8 @@
 import { api } from "~/trpc/server";
 import { UserDisplay } from "~/components/user-display";
 
+export const dynamic = "force-dynamic";
+
 export default async function Home() {
   const { status } = await api.health.getHealth.query();
 
